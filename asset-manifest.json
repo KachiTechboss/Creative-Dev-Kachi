@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Creative-Dev-Kachi/static/css/main.6a419a81.css",
-    "main.js": "/Creative-Dev-Kachi/static/js/main.577fcc95.js",
+    "main.js": "/Creative-Dev-Kachi/static/js/main.54851409.js",
     "index.html": "/Creative-Dev-Kachi/index.html",
     "main.6a419a81.css.map": "/Creative-Dev-Kachi/static/css/main.6a419a81.css.map",
-    "main.577fcc95.js.map": "/Creative-Dev-Kachi/static/js/main.577fcc95.js.map"
+    "main.54851409.js.map": "/Creative-Dev-Kachi/static/js/main.54851409.js.map"
   },
   "entrypoints": [
     "static/css/main.6a419a81.css",
-    "static/js/main.577fcc95.js"
+    "static/js/main.54851409.js"
   ]
 }
