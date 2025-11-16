@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/KachiTechboss/Creative-Dev-Kachi/static/css/main.6a419a81.css",
-    "main.js": "/KachiTechboss/Creative-Dev-Kachi/static/js/main.2ab39e82.js",
+    "main.js": "/KachiTechboss/Creative-Dev-Kachi/static/js/main.d8a2bbcb.js",
     "index.html": "/KachiTechboss/Creative-Dev-Kachi/index.html",
     "main.6a419a81.css.map": "/KachiTechboss/Creative-Dev-Kachi/static/css/main.6a419a81.css.map",
-    "main.2ab39e82.js.map": "/KachiTechboss/Creative-Dev-Kachi/static/js/main.2ab39e82.js.map"
+    "main.d8a2bbcb.js.map": "/KachiTechboss/Creative-Dev-Kachi/static/js/main.d8a2bbcb.js.map"
   },
   "entrypoints": [
     "static/css/main.6a419a81.css",
-    "static/js/main.2ab39e82.js"
+    "static/js/main.d8a2bbcb.js"
   ]
 }
