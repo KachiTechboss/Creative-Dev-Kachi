@@ -12,7 +12,12 @@ const Loading = () => {
               <line x1="8" x2="16" y1="21" y2="21"/>
               <line x1="12" x2="12" y1="17" y2="21"/>
             </svg> */}
-            <img src={process.env.PUBLIC_URL + "/kachi-logoo.jpeg"} alt="Logo" className="logo-img" />
+            <img
+                src={process.env.PUBLIC_URL + "/Kachi-logoo.jpeg"}
+                  alt="Logo"
+                     className="logo-img"
+            />
+
           </div>
           <h2 className="loading-text">Creative-Dev Kachi</h2>
         </div>

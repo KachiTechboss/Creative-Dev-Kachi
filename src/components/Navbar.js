@@ -16,7 +16,7 @@ const Navbar = () => {
       <div className="nav-container">
         <div className="nav-content">
           <div className="nav-brand">
-            <img className="boy" src={process.env.PUBLIC_URL + "/kachi-logoo.jpeg"}  alt="boy_with_laptop" />
+            <img className="boy" src={process.env.PUBLIC_URL + "/Kachi-logoo.jpeg"}  alt="boy_with_laptop" />
           </div>
           
           <div className="nav-desktop">
