@@ -8,8 +8,17 @@ export const projectsData = [
     github: "https://github.com/KachiTechboss/Bussiness-waitlist",
     live: "https://kachitechboss.github.io/Bussiness-waitlist/"
   },
-  {
+    {
     id: 2,
+    title: "Chemistry Quiz App",
+    tags: ["React", "CSS"],
+    description: "Chemistry Quiz App is a React-based web application that helps users test their knowledge of basic chemistry concepts through interactive multiple-choice questions, instant feedback, progress tracking, and a final score summary in a simple, mobile-friendly interface.",
+    image: process.env.PUBLIC_URL + "/image/quiz-app.png",
+    github: "https://github.com/KachiTechboss/Chemistryquiz-app",
+    live: "https://kachitechboss.github.io/Chemistryquiz-app/"
+  },
+  {
+    id: 3,
     title: "Chuba Portfolio",
     tags: ["HTML", "CSS", "JavaScript", "TypeScript"],
     description: "I designed and developed a modern, responsive portfolio website for a highly experienced master's software engineer to showcase professional achievements, technical expertise, and notable projects.",
@@ -18,7 +27,7 @@ export const projectsData = [
     live: "https://kachitechboss.github.io/Chuba-portfolio/"
   },
   {
-    id: 3,
+    id: 4,
     title: "Socialmedia Dashboard",
     tags: ["HTML", "CSS", "JavaScript"],
     description: "I developed a dynamic web page utilizing CSS Grid, featuring a color theme switcher to toggle between different themes.",
@@ -27,7 +36,7 @@ export const projectsData = [
     live: "https://kachitechboss.github.io/Socialmedia-Dashboard/"
   },
   {
-    id: 4,
+    id: 5,
     title: "SpineCare Dental Page",
     tags: ["HTML", "CSS", "JavaScript"],
     description: "A clean and modern dentist landing page design focused on simplicity and user experience. Includes hero section, services, testimonials, and appointment form.",
@@ -36,7 +45,7 @@ export const projectsData = [
     live: "https://kachitechboss.github.io/SpineCare-Dental-Clinic/"
   },
   {
-    id: 5,
+    id: 6,
     title: "Flyo Dark Theme",
     tags: ["HTML", "CSS", "JavaScript"],
     description: "Built with HTML, CSS, and JS, showcasing responsive design and dynamic layouts using Flexbox and Grid.",
@@ -45,7 +54,7 @@ export const projectsData = [
     live: "https://kachitechboss.github.io/flyo-dark-theme/"
   },
   {
-    id: 6,
+    id: 7,
     title: "Product List",
     tags: ["HTML", "CSS", "JavaScript", "JSON Data"],
     description: "Web app showcasing dynamic UI updates based on JSON data, interactive elements, and real-time updates.",
@@ -54,7 +63,7 @@ export const projectsData = [
     live: "https://kachitechboss.github.io/product-list/"
   },
   {
-    id: 7,
+    id: 8,
     title: "Landlord Properties",
     tags: ["HTML", "CSS", "JavaScript", "Data JSON"],
     description: "Real estate property list page offering a sleek and easy-to-use platform for exploring properties in diverse locations.",
@@ -63,7 +72,7 @@ export const projectsData = [
     live: "https://kachitechboss.github.io/real-estate-demo-site/"
   },
   {
-    id: 8,
+    id: 9,
     title: "Time Tracking Dashboard",
     tags: ["HTML", "CSS", "JavaScript", "JSON Data"],
     description: "Responsive web page utilizing CSS Grid, with integration of JSON data and interactive elements to enhance user experience.",
@@ -71,14 +80,6 @@ export const projectsData = [
     github: "https://github.com/KachiTechboss/Time-Tracking-Dashboard",
     live: "https://kachitechboss.github.io/Time-Tracking-Dashboard/"
   },
-  // {
-  //   id: 9,
-  //   title: "Huddle Landing Page",
-  //   tags: ["HTML", "CSS"],
-  //   description: "A responsive web page showcasing skills in HTML, CSS, and responsive design principles.",
-  //   image: process.env.PUBLIC_URL + "/image/huddle pic.webp",
-  //   github: "https://github.com/KachiTechboss/complex-hudddle-landing-page",
-  //   live: "https://kachitechboss.github.io/complex-hudddle-landing-page/"
-  // },
+
   
 ];
