@@ -5,7 +5,8 @@ import {
   SiHtml5, 
   SiCss3, 
   SiJavascript, 
-  SiGit 
+  SiGit,
+  SiTailwindcss 
 } from "react-icons/si";
 import "../styles/App.css";
 
@@ -18,6 +19,8 @@ const Skills = () => {
       <div className="skill-icon"><SiCss3 /></div>
       <div className="skill-icon"><SiJavascript /></div>
       <div className="skill-icon"><SiGit /></div>
+      <div className="skill-icon"><SiTailwindcss /></div>
+
     </div>
   );
 };

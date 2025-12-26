@@ -6,13 +6,13 @@ const Projects = () => {
   const [currentProject, setCurrentProject] = useState(0);
 
   // Auto-slide every 5 seconds
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setCurrentProject((prev) => (prev + 1) % projectsData.length);
-    }, 5000);
-    return () => clearInterval(interval);
-  }, []);
+ useEffect(() => {
+  const interval = setInterval(() => {
+    setCurrentProject((prev) => (prev + 1) % projectsData.length);
+  }, 10000); // 10 seconds
 
+  return () => clearInterval(interval);
+}, []);
   // Manual navigation
   const nextProject = () => {
     setCurrentProject((prev) => (prev + 1) % projectsData.length);
