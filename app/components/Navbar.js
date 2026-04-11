@@ -1,7 +1,13 @@
+'use client';
+
 import React, { useState } from 'react';
+import Link from 'next/link';
+import { usePathname } from 'next/navigation';
+import ThemeToggle from './ThemeToggle';
 
 const Navbar = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const pathname = usePathname();
 
   const toggleMobileMenu = () => {
     setMobileMenuOpen(!mobileMenuOpen);
@@ -11,19 +17,33 @@ const Navbar = () => {
     setMobileMenuOpen(false);
   };
 
+  const navLinks = [
+    { href: '/', label: 'Home' },
+    { href: '/about', label: 'About' },
+    { href: '/skills', label: 'Skills' },
+    { href: '/projects', label: 'Projects' },
+    { href: '/contact', label: 'Contact' },
+  ];
+
   return (
     <nav className="nav">
       <div className="nav-container">
         <div className="nav-content">
-          <div className="nav-brand">
-            <img className="boy" src={process.env.PUBLIC_URL + "/Kachi-logoo.jpeg"}  alt="boy_with_laptop" />
-          </div>
+          <Link href="/" className="nav-brand">
+            <img className="boy" src="/Kachi-logoo.jpeg" alt="logo" />
+          </Link>
           
           <div className="nav-desktop">
-            <a href="#home" className="nav-link">Home</a>
-            <a href="#about" className="nav-link">About</a>
-            <a href="#projects" className="nav-link">Projects</a>
-            <a href="#contact" className="nav-link">Contact</a>
+            {navLinks.map((link) => (
+              <Link
+                key={link.href}
+                href={link.href}
+                className={`nav-link ${pathname === link.href ? 'nav-link-active' : ''}`}
+              >
+                {link.label}
+              </Link>
+            ))}
+            <ThemeToggle />
           </div>
 
           <div className="nav-mobile-btn">
@@ -46,10 +66,19 @@ const Navbar = () => {
 
         <div className={`mobile-menu ${mobileMenuOpen ? '' : 'hidden'}`}>
           <div className="mobile-menu-links">
-            <a href="#home" className="mobile-nav-link" onClick={closeMobileMenu}>Home</a>
-            <a href="#about" className="mobile-nav-link" onClick={closeMobileMenu}>About</a>
-            <a href="#projects" className="mobile-nav-link" onClick={closeMobileMenu}>Projects</a>
-            <a href="#contact" className="mobile-nav-link" onClick={closeMobileMenu}>Contact</a>
+            {navLinks.map((link) => (
+              <Link
+                key={link.href}
+                href={link.href}
+                className={`mobile-nav-link ${pathname === link.href ? 'nav-link-active' : ''}`}
+                onClick={closeMobileMenu}
+              >
+                {link.label}
+              </Link>
+            ))}
+            <div className="mobile-theme-toggle">
+              <ThemeToggle />
+            </div>
           </div>
         </div>
       </div>

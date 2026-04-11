@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "name": "My Portfolio",
+    "slug": "my-portfolio",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "icon": "./assets/Kachi-logoo.jpeg",
+    "splash": {
+      "image": "./assets/Kachi-logoo.jpeg",
+      "resizeMode": "contain",
+      "backgroundColor": "#111827"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/Kachi-logoo.jpeg",
+        "backgroundColor": "#111827"
+      },
+      "package": "com.creativekachi.myportfolio"
+    },
+    "web": {
+      "favicon": "./assets/Kachi-logoo.jpeg"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "a27712aa-ce03-484e-8aa3-ecd9fa4676dd"
+      }
+    }
+  }
+}
