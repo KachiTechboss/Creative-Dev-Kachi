@@ -52,6 +52,14 @@ const Hero = () => {
             <div className="hero-buttons">
               <MagneticButton href="https://wa.me/2348057032993" className="btn btn-primary">Contact me</MagneticButton>
               <MagneticButton href="https://github.com/KachiTechboss" className="btn btn-outline">GitHub</MagneticButton>
+              <MagneticButton href="/NNAJI CV.pdf" className="btn btn-outline btn-download" download="NNAJI_CV.pdf">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                  <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+                  <polyline points="7 10 12 15 17 10"/>
+                  <line x1="12" y1="15" x2="12" y2="3"/>
+                </svg>
+                Download CV
+              </MagneticButton>
             </div>
             <div className="hero-skills">
               <span className="typing-text">I build websites with</span>

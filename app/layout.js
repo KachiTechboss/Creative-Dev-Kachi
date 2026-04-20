@@ -5,6 +5,7 @@ import Footer from './components/Footer'
 import CursorTrailWrapper from './components/CursorTrailWrapper'
 import { ThemeProvider } from './components/ThemeProvider'
 import PageRevealWrapper from './components/PageRevealWrapper'
+import ThemeSettings from './components/ThemeSettings'
 
 export const metadata = {
   title: 'Miracle Nnaji - Frontend Developer Portfolio',
@@ -22,6 +23,7 @@ export default function RootLayout({ children }) {
           <PageRevealWrapper />
           <CursorTrailWrapper />
           <Navbar />
+          <ThemeSettings />
           {children}
           <Footer />
         </ThemeProvider>

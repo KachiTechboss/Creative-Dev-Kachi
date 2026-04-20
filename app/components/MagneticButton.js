@@ -2,7 +2,7 @@
 
 import React, { useRef } from 'react';
 
-const MagneticButton = ({ children, href, className, onClick, type, target, rel }) => {
+const MagneticButton = ({ children, href, className, onClick, type, target, rel, download }) => {
   const btnRef = useRef(null);
 
   const handleMouseMove = (e) => {
@@ -30,7 +30,7 @@ const MagneticButton = ({ children, href, className, onClick, type, target, rel 
 
   if (href) {
     return (
-      <a href={href} target={target} rel={rel} {...props}>
+      <a href={href} target={target} rel={rel} download={download} {...props}>
         {children}
       </a>
     );
